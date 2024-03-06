@@ -5,7 +5,7 @@ function Header() {
     <div className="header bg-indigo-200 flex justify-between items-center px-4 h-12">
       <div className="left">
         <div className=" text-2xl text-indigo-800">
-          Golu Bhatt With TailWind
+          Golu Bhatt With TailWind Css
         </div>
       </div>
       <div className="middle">
