@@ -4,7 +4,9 @@ function Header() {
   return (
     <div className="header bg-indigo-200 flex justify-between items-center px-4 h-12">
       <div className="left">
-        <div className=" text-2xl text-indigo-800">PW Skilld</div>
+        <div className=" text-2xl text-indigo-800">
+          Golu Bhatt With TailWind
+        </div>
       </div>
       <div className="middle">
         <ul className="hidden md:flex gap-4">
