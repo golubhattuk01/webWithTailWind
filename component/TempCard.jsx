@@ -23,7 +23,7 @@ const TempCard = () => {
             <img
               src={item}
               alt="item"
-              className="h-80 animate-pulse hover:scale-150 hover:animate-none object-cover duration-1000"
+              className="h-80 animate-pulse group-hover:scale-150 hover:animate-none object-cover duration-1000"
             />
           </div>
           <div className=" shadow-2xl text-center">
