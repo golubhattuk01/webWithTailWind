@@ -5,6 +5,8 @@ import Hero from "../component/Hero";
 import Student from "../component/Student";
 import Product from "../component/Product";
 import Footer from "../component/Footer";
+import Test from "../component/Test";
+import TempCard from "../component/TempCard";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Header></Header>
       <Hero></Hero>
       <Student></Student>
+      <Test></Test>
+      <TempCard></TempCard>
       <Product></Product>
       <Footer></Footer>
     </Container>
