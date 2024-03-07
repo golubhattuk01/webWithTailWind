@@ -4,7 +4,7 @@ import Card from "./Card";
 const Product = () => {
   let arr = [100, 20000, 30000, 4000, 5000];
   return (
-    <div className="student flex flex-col items-center pb-5 mt-10">
+    <div className="student flex flex-col items-center pb-5 mt-10 ">
       <div className="top flex flex-col items-center">
         <div className="text-center text-indigo-700 font-bold mt-4">
           Our Products

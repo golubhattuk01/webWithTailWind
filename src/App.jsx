@@ -1,11 +1,10 @@
+import "./App.css";
 import Header from "../component/Header";
 import Container from "../component/Container";
-import "./App.css";
-import Buttonx from "../component/Buttonx";
-import Card from "../component/Card";
 import Hero from "../component/Hero";
 import Student from "../component/Student";
 import Product from "../component/Product";
+import Footer from "../component/Footer";
 
 function App() {
   return (
@@ -14,6 +13,7 @@ function App() {
       <Hero></Hero>
       <Student></Student>
       <Product></Product>
+      <Footer></Footer>
     </Container>
   );
 }

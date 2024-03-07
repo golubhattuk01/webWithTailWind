@@ -2,9 +2,9 @@ import React from "react";
 import { IoReorderThreeOutline } from "react-icons/io5";
 function Header() {
   return (
-    <div className="header bg-indigo-200 flex justify-between items-center px-4 h-12">
+    <div className="header bg-indigo-200 flex justify-between items-center px-4 gap-x-5">
       <div className="left">
-        <div className=" text-2xl text-indigo-800">
+        <div className=" text-sm md:text-2xl text-indigo-800">
           Golu Bhatt With TailWind Css
         </div>
       </div>
@@ -16,7 +16,10 @@ function Header() {
         </ul>
       </div>
       <div className="end">
-        <div className="hidden md:block bg-blue-600 px-4 py-2 rounded-md font-bold">
+        <div
+          className="hidden md:block bg-blue-600 px-4 py-2 rounded-md font-bold 
+        border -1 active:bg-white  active:border-black"
+        >
           Login/Signup
         </div>
         <div className="block md:hidden ">
